@@ -19,3 +19,11 @@ Console.Write(fullName.Split()[1]);
 Console.ResetColor();
 
 Console.Write(" ");
+
+Console.ForegroundColor = ConsoleColor.Red;
+Console.Write(fullName.Split()[2]);
+Console.ResetColor();
+
+
+
+Console.WriteLine();
